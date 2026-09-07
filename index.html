@@ -1,14 +1,272 @@
-# Ta Doan Gia Bao
-  Information Systems Student
-  University of Utah 
 
-## Technologies Used
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan | Information Systems Student</title>
 
-- Word
-- Tableau
-- Excel
-- GitHub 
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-## Website
+        html {
+            scroll-behavior: smooth;
+        }
 
-https://github.com/baoDta
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background: #f8fafc;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #0f172a;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #3b82f6;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .project {
+            border: 1px solid #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f8fafc;
+        }
+
+        .project h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #0f172a;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ta Doan Gia Bao</h1>
+        <p>Information Systems Student</p>
+        <p>University of Utah</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am an Information Systems student at the University of Utah
+                interested in the connection between business and technology.
+                I am exploring career opportunities in business analytics,
+                information systems, and technology consulting. I am also
+                interested in artificial intelligence and how AI tools can
+                improve productivity, decision-making, and business processes.
+                My technical interests include web development, databases,
+                data analytics, and programming. Through my coursework and
+                projects, I hope to build practical skills that help
+                organizations solve problems and use technology more
+                effectively. I enjoy learning new tools and developing
+                solutions that connect technical knowledge with real-world
+                business needs.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">Microsoft Excel</span>
+                <span class="skill">Microsoft Word</span>
+               
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects">
+
+                <div class="project">
+                    <h3>AI Business Analysis</h3>
+                    <p>
+                        Analyze business data using AI tools to identify
+                        insights and support decision-making.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Data Visualization</h3>
+                    <p>
+                        Create a dashboard to present data and communicate
+                        business insights clearly.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Web Development</h3>
+                    <p>
+                        Build a responsive website using HTML, CSS, and
+                        JavaScript.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Process Improvement</h3>
+                    <p>
+                        Explore an AI-assisted workflow redesign to improve
+                        efficiency and productivity.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Resume coming soon.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>
+                Email:
+                <a href="mailto:u1541313@utah.edu">
+                    u1541313@utah.edu
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/baoDta" target="_blank">
+                    GitHub Profile
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ta Doan Gia Bao. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
