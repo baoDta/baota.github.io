@@ -1,2 +1,18 @@
-# https://github.com/baoDta
-Information Systems student at the University of Utah. Interested in technology, business, and learning how information systems solve real-world problems.
+# My Portfolio
+
+This repository hosts my professional GitHub portfolio for IS 3060.
+
+## About
+
+I am an Information Systems student at the University of Utah interested in business analytics, artificial intelligence, and technology.
+
+## Technologies Used
+
+- JavaScript
+- Python
+- Word
+- Excel
+- GitHub 
+
+## Website
+https://github.com/baoDta
