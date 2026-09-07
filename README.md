@@ -15,4 +15,4 @@ I am an Information Systems student at the University of Utah interested in busi
 - GitHub 
 
 ## Website
-https://github.com/baoDta
+https://baodta.github.io/baota.github.io/
